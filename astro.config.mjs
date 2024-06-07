@@ -7,6 +7,10 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'داکیومنت فارسی OSSIM',
+			favicon: '/favicon.png',
+			logo: {
+				src: './src/assets/logo.png',
+			  },
 			locales: {
 				root: {
 				  label: 'فارسی',
@@ -21,15 +25,26 @@ export default defineConfig({
 				{
 					label: 'معرفی',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'OSSIM چیست؟', link: '/guides/example/' },
+						{ label: 'OSSIM چیست؟', link: '/introduction/intro' },
+						{ label: 'بخش‌ها و اجزا', link: '/introduction/components' },
+						{ label: 'نحوه پیاده سازی', link: '/introduction/deployment' },
 					],
 				},
 				{
 					label: 'نصب و راه اندازی',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'نصب ماشین مجازی', link: '/reference/example/' },
+						{ label: 'پیش نیازها', link: '/installation/pre-requisites' },
+						{ label: 'پیکربندی VirtualBox', link: '/installation/configure-vm' },
+						{ label: 'نصب OSSIM Server', link: '/installation/install-ossim-server' },
+						{ label: 'نصب OSSIM Sensor', link: '/installation/install-ossim-sensor' },
+						{ label: 'نصب Ubuntu Webserver', link: '/installation/install-webserver' },
+					],
+				},
+				{
+					label: 'تنظیمات و پیکربندی',
+					items: [
+						{ label: 'پیکربندی OSSIM Server', link: '/configuration/configure-server' },
+						{ label: 'پیکربندی OSSIM Sensor', link: '/configuration/configure-sensor' },
 					],
 				},
 			],
