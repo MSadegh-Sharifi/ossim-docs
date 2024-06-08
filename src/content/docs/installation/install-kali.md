@@ -24,6 +24,10 @@ description: نصب Kali Linux
 
 ![](../../../assets/install-kali2.png)
 
+12. زمانی به این صفحه رسیدید، yes را بزنید تا بوت لودر Grub نصب شود.
+
+![](../../../assets/install-kali3.png)
+
 
 ## استفاده از Pre-Built Image
 
