@@ -47,6 +47,7 @@ export default defineConfig({
 						{ label: 'پیکربندی OSSIM Server', link: '/configuration/configure-server' },
 						{ label: 'پیکربندی OSSIM Sensor', link: '/configuration/configure-sensor' },
 						{ label: 'پیکربندی Ubuntu Webserver', link: '/configuration/configure-webserver' },
+						{ label: 'پیکربندی Kali Linux', link: '/configuration/configure-kali' },
 					],
 				},
 			],
