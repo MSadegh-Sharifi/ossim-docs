@@ -18,8 +18,9 @@ description: نصب Ubuntu Webserver
 1. از منوی Devices گزینه ...Insert Guest Additions CD image را انتخاب کنید.
 2. دستورات زیر را در ترمینال وارد کنید:
 ```sh
-sudo apt install gcc make bzip2
-sudo mkdir --parents /media/cdrom
+sudo apt update
+sudo apt install dkms build-essential linux-headers-$(uname -r) bzip2 libxt6 libxmu6
+sudo mkdir -p /media/cdrom
 sudo mount /dev/cdrom /media/cdrom
 sudo /media/cdrom/VBoxLinuxAdditions.run
 reboot

@@ -6,7 +6,7 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'داکیومنت فارسی OSSIM',
+			title: 'آموزش AlienVault OSSIM',
 			favicon: '/favicon.png',
 			logo: {
 				src: './src/assets/logo.png',
@@ -38,6 +38,7 @@ export default defineConfig({
 						{ label: 'نصب OSSIM Server', link: '/installation/install-ossim-server' },
 						{ label: 'نصب OSSIM Sensor', link: '/installation/install-ossim-sensor' },
 						{ label: 'نصب Ubuntu Webserver', link: '/installation/install-webserver' },
+						{ label: 'نصب Kali Linux', link: '/installation/install-kali' },
 					],
 				},
 				{
@@ -45,6 +46,7 @@ export default defineConfig({
 					items: [
 						{ label: 'پیکربندی OSSIM Server', link: '/configuration/configure-server' },
 						{ label: 'پیکربندی OSSIM Sensor', link: '/configuration/configure-sensor' },
+						{ label: 'پیکربندی Ubuntu Webserver', link: '/configuration/configure-webserver' },
 					],
 				},
 			],

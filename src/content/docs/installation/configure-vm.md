@@ -19,4 +19,6 @@ Subnet: 192.168.10.0/24
 OSSIM-Server: 192.168.10.10
 
 OSSIM-Sensor: 192.168.10.11
+
+Ubuntu-Webserver: 192.168.10.20
 ```
