@@ -42,12 +42,21 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'تنظیمات و پیکربندی',
+					label: 'پیکربندی',
 					items: [
 						{ label: 'پیکربندی OSSIM Server', link: '/configuration/configure-server' },
 						{ label: 'پیکربندی OSSIM Sensor', link: '/configuration/configure-sensor' },
 						{ label: 'پیکربندی Ubuntu Webserver', link: '/configuration/configure-webserver' },
 						{ label: 'پیکربندی Kali Linux', link: '/configuration/configure-kali' },
+					],
+				},
+				{
+					label: 'داشبورد و تنظیمات',
+					items: [
+						{ label: 'تنظیمات اولیه', link: '/dashboard/configure-siem' },
+						{ label: 'داشبورد OSSIM و تنظیم Sensor', link: '/dashboard/ossim-dashboard' },
+						{ label: 'تنظیمات Directives', link: '/dashboard/ossim-directives' },
+						{ label: 'تنظیم NIDS', link: '/dashboard/configure-nids' },
 					],
 				},
 			],
